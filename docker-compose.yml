@@ -1,0 +1,12 @@
+
+version: '3'
+services:
+  python3:
+    restart: always
+    build: .
+    container_name: 'ss'
+    working_dir: '/root/workspace'
+    tty: true
+    volumes:
+      - .:/root/workspace 
+    

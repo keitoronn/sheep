@@ -1,0 +1,13 @@
+{
+    "shepherd_model": "collective",
+    "process_number": 3,
+    "trial_number": 10,
+    "sheep_number": 10,
+    "slow_sheep_number": [1,5],
+    "n_iter": 10,
+    "goal": [20,20],
+    "goal_radius": 15,
+    "shepherd_initial_pos": [-30,-50],
+    "sheep_initial_pos_radius": 100,
+    "sheep_initial_pos_base":[0, 0]
+}
